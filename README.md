@@ -30,3 +30,8 @@ accroding to [Eula](https://github.com/aseprite/aseprite/blob/main/EULA.txt) :
 > You may not distribute copies of the SOFTWARE PRODUCT to third parties. Evaluation versions available for download from the Licensor's websites may be freely distributed.
 
 we need to remove the product in `Releases` .
+
+# FAQ
+
+## libcrypto-1_1-x64.dll Not Found (common issue)
+Download [OpenSSL 1.1.1 binary for windows](https://kb.firedaemon.com/support/solutions/articles/4000121705-openssl-3-1-3-0-and-1-1-1-binary-distributions-for-microsoft-windows), and extract ```openssl-1.1\x64\bin\libcrypto-1_1-x64.dll``` to the PATH or aseprite home directory. 
