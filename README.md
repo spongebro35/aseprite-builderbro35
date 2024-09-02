@@ -1,4 +1,4 @@
-# aseprite-builder
+# aseprite-builder (Configured for windows build)
 Build Aseprite using Github action
 
 # What should you do?
