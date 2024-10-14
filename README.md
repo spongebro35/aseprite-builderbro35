@@ -21,7 +21,7 @@ Build Aseprite using Github action
   ```
 - **enable workflow `Build and release Aseprite` in `Actions -- Workflows`**
 
-- [Check for latest version code](https://www.aseprite.org/release-notes) and **update `BuildLog.md` and push** (This step triggers the building process. You definitely want to do this!)
+- [Check for latest version code](https://github.com/aseprite/aseprite/releases/) and **update `BuildLog.md` and push** (This step triggers the building process. You definitely want to do this!)
 - now you should see the building process via `Actions` and you can find the product in `Release`
 
 
