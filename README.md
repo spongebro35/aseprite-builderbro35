@@ -20,10 +20,10 @@ Build Aseprite using Github action
           os: [ windows-latest, ubuntu-latest, macOS-latest ] # <------- remove platform(s) you don't want
   ```
 - **enable workflow `Build and release Aseprite` in `Actions -- Workflows`**
-- **update `BuildLog.md` and push** (This step triggers the building process. You definitely want to do this!)
+
+- [Check for latest version code](https://www.aseprite.org/release-notes) and **update `BuildLog.md` and push** (This step triggers the building process. You definitely want to do this!)
 - now you should see the building process via `Actions` and you can find the product in `Release`
--
-- [Check for latest version code](https://www.aseprite.org/release-notes)
+
 
 accroding to [Eula](https://github.com/aseprite/aseprite/blob/main/EULA.txt) :
 
